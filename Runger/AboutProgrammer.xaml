@@ -1,0 +1,22 @@
+﻿<Window x:Class="Runger.AboutProgrammer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Runger"
+        mc:Ignorable="d"
+        Title="О программе" Height="250" Width="335" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow" Icon="images\icon.jpg">
+    <Grid>
+        <Image Source="images\abpro.jpg" Stretch="Fill"/>
+        <Label x:Name="Sound" Content="Sound:Half-Life(Valve)" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="169,0,0,0" Height="36"/>
+        <Label x:Name="Music" FontSize="11" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1,0,0,0" Height="125" Width="168"/>
+        <Label x:Name="Maininfo" Content="Разработчик игры:" FontSize="20" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="1,0,0,52"/>
+        <Label x:Name="Maininfo1" Content="Разработчик игры:" FontSize="20" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Bottom" Foreground="DarkMagenta" Margin="0,0,0,53"/>
+        <Label x:Name="Hapro" Content="Hapro" FontSize="20" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,40,51"/>
+        <Label x:Name="Hapro1" Content="Hapro" FontSize="20" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Foreground="DarkMagenta" Margin="0,0,41,52"/>
+        <Label x:Name="FIOGroup1" Content="(Лопаткин Сергей ИСП-21)" FontSize="20" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Foreground="Black" Width="309" Margin="0,0,11,13"/>
+        <Label x:Name="FIOGroup" Content="(Лопаткин Сергей ИСП-21)" FontSize="20" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Foreground="DarkMagenta" Width="308" Margin="0,0,13,14"/>
+        <Label x:Name="VersionOfProgram1" Content="Ver.1.0" FontSize="11" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Foreground="Black" Width="51" Height="24"/>
+        <Label x:Name="VersionOfProgram" Content="Ver.1.0" FontSize="11" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Foreground="DarkMagenta" Width="51" Height="24" Margin="0,0,1,0"/>
+    </Grid>
+</Window>
